@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Javi Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Javi Calculator</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <div class="outerBoxOne">
     <h1>Calculator</h1>
-    <input id="fieldOne" type="number">
-    <br>
-    <br>
+    <input class="fOne" id="fieldOne" type="number">
+    <input class="fTwo" id="fieldTwo" type="number">
     <button type="button" onclick="addXAndY()">+</button>
     <button type="button" onclick="subtractXAndY()">-</button>
-    <button type="button" onclick="multiplyXAndY()">*</button>
+    <button type="button" onclick="multiplyXAndY()">x</button>
     <button type="button" onclick="divideXAndY()">/</button>
-    <br>
-    <br>
-    <input id="fieldTwo" type="number">
-    <!--<button>=</button>-->
-    <h2 id="result"></h2>
+    <div class="resultBox">
+      <h2 id="result">Result is </h2>
+    </div>
     <script src="app.js"></script>
+  </div>
 </body>
 </html>

@@ -1,0 +1,38 @@
+.outerBoxOne {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: solid;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  margin: 50px;
+}
+
+.fOne, .fTwo {
+  margin: 5px;
+  height: 25px;
+  width: 170px;
+  font-size: 20px;
+  text-align: right;
+}
+
+button {
+  height: 30px;
+  width: 35px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.resultBox {
+  border: 1px solid gray;
+  height: 25px;
+  width: 170px;
+  text-align: right;
+}
+
+.resultBox h2 {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
