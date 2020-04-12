@@ -1,10 +1,15 @@
+body {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .outerBoxOne {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   border: solid;
   width: 200px;
-  height: 300px;
+  height: 350px;
   padding: 20px;
   margin: 50px;
 }
@@ -26,13 +31,72 @@ button {
 
 .resultBox {
   border: 1px solid gray;
-  height: 25px;
+  height: 35px;
   width: 170px;
+  text-align: right;
+  font-size: 30px;
+}
+
+.resultBox p {
+  margin: 0px;
+  overflow: hidden;
+}
+
+
+
+.outerBoxTwo {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: solid;
+  width: 200px;
+  height: 350px;
+  padding: 20px;
+  margin: 50px;
+}
+
+.outerBoxTwo h1 {
+  margin: 0;
+}
+
+.log {
+  height: 15px;
+}
+
+.current {
+  height: 30px;
   text-align: right;
 }
 
-.resultBox h2 {
-  margin: 0px;
-  padding: 0px;
-  overflow: hidden;
+.keys {
+  display: flex;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.numbers div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+  border: solid;
+}
+
+.operators {
+  /* border: solid; */
+}
+
+.operators div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  margin: 4px;
+  border: solid;
 }

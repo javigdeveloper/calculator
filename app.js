@@ -1,36 +1,29 @@
-function addXAndY() {
-    var x,y,z;
-    x = document.getElementById("fieldOne").value;
-    y = document.getElementById("fieldTwo").value;
-    x = Number(x);
-    y = Number(y);
-    z = x + y;
-    document.getElementById("result").innerHTML = z;
+let x,y;
+
+function addXAndY(x, y) {
+  x = Number(document.getElementById("fieldOne").value);
+  y = Number(document.getElementById("fieldTwo").value);
+  document.getElementById("result").innerHTML = x + y;
 }
+
 function subtractXAndY() {
-    var x,y,z;
-    x = document.getElementById("fieldOne").value;
-    y = document.getElementById("fieldTwo").value;
-    x = Number(x);
-    y = Number(y);
-    z = x - y;
-    document.getElementById("result").innerHTML = z;
+  x = Number(document.getElementById("fieldOne").value);
+  y = Number(document.getElementById("fieldTwo").value);
+  document.getElementById("result").innerHTML = x - y;
 }
+
 function multiplyXAndY() {
-    var x,y,z;
-    x = document.getElementById("fieldOne").value;
-    y = document.getElementById("fieldTwo").value;
-    x = Number(x);
-    y = Number(y);
-    z = x * y;
-    document.getElementById("result").innerHTML = z;
+  x = Number(document.getElementById("fieldOne").value);
+  y = Number(document.getElementById("fieldTwo").value);
+  document.getElementById("result").innerHTML = x * y;
 }
+
 function divideXAndY() {
-    var x,y,z;
-    x = document.getElementById("fieldOne").value;
-    y = document.getElementById("fieldTwo").value;
-    x = Number(x);
-    y = Number(y);
-    z = x / y;
-    document.getElementById("result").innerHTML = z;
+  x = Number(document.getElementById("fieldOne").value);
+  y = Number(document.getElementById("fieldTwo").value);
+  document.getElementById("result").innerHTML = x / y;
+}
+
+function inputNumber(n) {
+  document.getElementById("mainDisplay").value = n;
 }
