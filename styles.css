@@ -12,6 +12,7 @@ body {
   height: 350px;
   padding: 20px;
   margin: 50px;
+  background-color: rgb(222, 255, 168);
 }
 
 .fOne, .fTwo {
@@ -30,7 +31,8 @@ button {
 }
 
 .resultBox {
-  border: 1px solid gray;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid;
   height: 35px;
   width: 170px;
   text-align: right;
@@ -53,6 +55,7 @@ button {
   height: 350px;
   padding: 20px;
   margin: 50px;
+  background-color: rgb(222, 255, 168);
 }
 
 .outerBoxTwo h1 {
@@ -65,6 +68,8 @@ button {
 
 .current {
   height: 30px;
+  width: 180px;
+  font-size: 20px;
   text-align: right;
 }
 
@@ -75,6 +80,7 @@ button {
 .numbers {
   display: flex;
   flex-wrap: wrap;
+  width: 150px;
 }
 
 .numbers div {
@@ -85,10 +91,12 @@ button {
   width: 30px;
   margin: 4px;
   border: solid;
+  font-weight: bolder;
 }
 
-.operators {
-  /* border: solid; */
+.numbers div:hover {
+  background-color: rgb(162, 253, 76);
+  font-size: 20px;
 }
 
 .operators div {
@@ -97,6 +105,13 @@ button {
   align-items: center;
   height: 30px;
   width: 30px;
-  margin: 4px;
+  margin: 6px;
   border: solid;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.operators div:hover {
+  background-color: rgb(162, 253, 76);
+  font-size: 25px;
 }

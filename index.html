@@ -23,7 +23,7 @@
 
   <div class="outerBoxTwo">
     <h1>Calculator</h1>
-    <input class="log" type="text">
+    <input class="log" type="text" id="secondaryDisplay">
     <input class="current" id="mainDisplay" type="text">
     <div class="keys">
       <div class="numbers">
@@ -37,14 +37,15 @@
         <div onclick="inputNumber(2)">2</div>
         <div onclick="inputNumber(3)">3</div>
         <div onclick="inputNumber(0)">0</div>
-        <div>.</div>
-        <div>=</div>
+        <div onclick="dot()">.</div>
+        <div onclick="clearMain()">C</div>
       </div>
       <div class="operators">
-        <div>+</div>
-        <div>-</div>
-        <div>*</div>
-        <div>/</div>
+        <div id="add" onclick="add()">+</div>
+        <div id="minus" onclick="minus()">-</div>
+        <div id="times" onclick="times()">*</div>
+        <div id="divided" onclick="divided()">/</div>
+        <div id="equals" onclick="equals()">=</div>
       </div>
     </div>
   </div>
