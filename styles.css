@@ -28,6 +28,7 @@ button {
   width: 35px;
   font-size: 20px;
   margin: 5px;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .resultBox {
@@ -92,6 +93,7 @@ button {
   margin: 4px;
   border: solid;
   font-weight: bolder;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .numbers div:hover {
@@ -109,6 +111,7 @@ button {
   border: solid;
   font-size: 20px;
   font-weight: bolder;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .operators div:hover {
